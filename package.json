@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "serverless": "^1.11.0"
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.11.0",
+    "serverless-coffeescript": "^1.0.0"
   }
 }
