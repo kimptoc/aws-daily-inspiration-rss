@@ -1,3 +1,3 @@
-# handler = require './handler'
+handler = require './handler'
 
-# console.log handler.hello(null,null,(y,x) -> console.log x)
+console.log handler.hello(null,null,(y,x) -> console.log x)

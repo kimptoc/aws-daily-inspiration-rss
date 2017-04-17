@@ -4,9 +4,9 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "coffee",
-    "deploy": "serverless deploy -v --stage production --region us-west-1"
+    "test": "npm run build && node test",
+    "build": "coffee -c *.coffee",
+    "deploy": "npm test && serverless deploy -v --stage production --region us-west-1"
   },
   "author": "",
   "license": "ISC",
